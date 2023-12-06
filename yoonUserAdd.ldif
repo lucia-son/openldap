@@ -1,0 +1,17 @@
+dn: uid=useryoon,ou=User,dc=young,dc=com
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+uid: useryoon
+sn: useryoon
+cn: useryoon
+uidNumber: 20102
+gidNumber: 20102
+homeDirectory: /home/useryoon
+loginShell: /bin/bash
+gecos: Linuxuser [Admin (at) HostAdvice]
+userPassword: {crypt}x
+shadowLastChange: 17058
+shadowMin: 0
+shadowMax: 99999
+shadowWarning: 7

@@ -1,0 +1,17 @@
+dn: uid=schema_registry,ou=User,dc=young,dc=com
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+uid: schema_registry
+sn: schema_registry
+cn: schema_registry
+uidNumber: 20107
+gidNumber: 20105
+homeDirectory: /home/schema_registry 
+loginShell: /bin/bash
+gecos: Linuxuser [Admin (at) HostAdvice]
+userPassword: schema1234
+shadowLastChange: 17058
+shadowMin: 0
+shadowMax: 99999
+shadowWarning: 7

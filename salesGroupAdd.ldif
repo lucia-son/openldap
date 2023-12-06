@@ -1,0 +1,5 @@
+dn: cn=Sales,ou=Group,dc=young,dc=com
+cn: Sales
+objectClass: posixGroup
+gidNumber: 20002
+memberUid: useryoon

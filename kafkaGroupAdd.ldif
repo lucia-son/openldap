@@ -1,0 +1,5 @@
+dn: cn=Kafkagroup,ou=Group,dc=young,dc=com
+cn: Kafkagroup
+objectClass: posixGroup
+gidNumber: 20300
+memberUid: kafkauser

@@ -1,0 +1,17 @@
+dn: uid=controlcenter,ou=User,dc=young,dc=com
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+uid: controlcenter
+sn: controlcenter
+cn: controlcenter
+uidNumber: 20105
+gidNumber: 20105
+homeDirectory: /home/controlcenter
+loginShell: /bin/bash
+gecos: Linuxuser [Admin (at) HostAdvice]
+userPassword: controlcenter-secret
+shadowLastChange: 17058
+shadowMin: 0
+shadowMax: 99999
+shadowWarning: 7

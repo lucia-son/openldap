@@ -1,0 +1,17 @@
+dn: uid=userson,ou=User,dc=young,dc=com
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+uid: userson
+sn: userson
+cn: userson
+uidNumber: 20101
+gidNumber: 20101
+homeDirectory: /home/userson
+loginShell: /bin/bash
+gecos: Linuxuser [Admin (at) HostAdvice]
+userPassword: {crypt}x
+shadowLastChange: 17058
+shadowMin: 0
+shadowMax: 99999
+shadowWarning: 7

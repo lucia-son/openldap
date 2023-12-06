@@ -1,0 +1,5 @@
+dn: cn=Engineering,ou=Group,dc=young,dc=com
+cn: Engineering
+objectClass: posixGroup
+gidNumber: 20001
+memberUid: userson

@@ -1,0 +1,17 @@
+dn: dc=young,dc=com
+dc: young
+objectClass: top
+objectClass: domain
+
+dn: cn=admin,dc=young,dc=com
+objectClass: organizationalRole
+cn: admin
+description: LDAP Manager
+
+dn: ou=User,dc=young,dc=com
+objectClass: organizationalUnit
+ou: User
+
+dn: ou=Group,dc=young,dc=com
+objectClass: organizationalUnit
+ou: Group

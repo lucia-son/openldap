@@ -1,0 +1,5 @@
+dn: olcDatabase={2}hdb,cn=config
+#olcRootDN: cn=mds,dc=young,dc=com
+changetype: modify
+replace: olcRootPW
+olcRootPW: {MD5}Gl7DRGMlNB8sy5rQfW0Zew==

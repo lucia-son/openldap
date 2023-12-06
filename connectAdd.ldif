@@ -1,0 +1,17 @@
+dn: uid=connect,ou=User,dc=young,dc=com
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+uid: connect
+sn: connect
+cn: connect
+uidNumber: 20104
+gidNumber: 20104
+homeDirectory: /home/connect
+loginShell: /bin/bash
+gecos: Linuxuser [Admin (at) HostAdvice]
+userPassword: connect-secret
+shadowLastChange: 17058
+shadowMin: 0
+shadowMax: 99999
+shadowWarning: 7

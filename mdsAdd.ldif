@@ -1,0 +1,17 @@
+dn: uid=mds_user,ou=User,dc=young,dc=com
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+uid: mds_user
+sn: mds_user
+cn: mds_user
+uidNumber: 20109
+gidNumber: 20105
+homeDirectory: /home/mds_user
+loginShell: /bin/bash
+gecos: Linuxuser [Admin (at) HostAdvice]
+userPassword: mds1234
+shadowLastChange: 17058
+shadowMin: 0
+shadowMax: 99999
+shadowWarning: 7

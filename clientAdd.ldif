@@ -1,0 +1,17 @@
+dn: uid=client,ou=User,dc=young,dc=com
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+uid: client
+sn: client
+cn: client
+uidNumber: 20106
+gidNumber: 20106
+homeDirectory: /home/client
+loginShell: /bin/bash
+gecos: Linuxuser [Admin (at) HostAdvice]
+userPassword: client-secret
+shadowLastChange: 17058
+shadowMin: 0
+shadowMax: 99999
+shadowWarning: 7
